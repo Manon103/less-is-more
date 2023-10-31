@@ -3,17 +3,17 @@ import { ref } from 'vue';
 
 
 let msg = ref("Hi, Betsy! I'm your best friend!");
-let img = ref('paul');
+let img = ref('https://static-lessismore.oss-cn-shanghai.aliyuncs.com/assets/paul.jpg');
 const getMoreMsg = () => {
     msg.value = 'Oops! To be continued.'
-    img.value = 'pual-laugh'
+    img.value = 'https://static-lessismore.oss-cn-shanghai.aliyuncs.com/assets/pual-laugh.jpg'
 }
 
 </script>
 
 <template>
     <div>
-        <img :src="`/src/assets/${img}.jpg`" class="paul" alt="paul logo" />
+        <img :src="img" class="paul" alt="paul logo" />
     </div>
     <h1>{{ msg }}</h1>
     <button type="button" @click="getMoreMsg">Click me for more!!!</button>
