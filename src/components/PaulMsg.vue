@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import { ref } from 'vue';
+import paulImg  from '../assets/paul.jpg';
+import paulLaughImg  from '../assets/paul-laugh.jpg';
 
 
 let msg = ref("Hi, Betsy! I'm your best friend!");
-let img = ref('https://static-lessismore.oss-cn-shanghai.aliyuncs.com/assets/paul.jpg');
+let img = ref(paulImg);
 const getMoreMsg = () => {
     msg.value = 'Oops! To be continued.'
-    img.value = 'https://static-lessismore.oss-cn-shanghai.aliyuncs.com/assets/pual-laugh.jpg'
+    img.value = paulLaughImg;
 }
 
 </script>
