@@ -28,12 +28,14 @@ const getMoreMsg = () => {
 .paul-page {
   height: 100%;
   width: 100%;
+  padding-top: 2rem;
   background-image: url('https://media-public.canva.cn/Pbt5k/MADVfNPbt5k/4/s2.jpg');
 }
 .paul-msg {
   color: #fff;
   line-height: 1;
   margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 .paul {
   width: 13rem;
