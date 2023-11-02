@@ -16,7 +16,7 @@ const getMoreMsg = () => {
 <template>
    <div class="paul-page">
       <div>
-          <img src="../assets/vue.svg" alt="" srcset="">
+          <img src="http://www.lessismore-here.com/assets/vue-5532db34.svg" alt="" srcset="">
           <img :src="img" class="paul" alt="paul logo" />
       </div>
       <h1 class="paul-msg">{{ msg }}</h1>
