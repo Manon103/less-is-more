@@ -3,6 +3,7 @@ import PaulMsg from './components/PaulMsg.vue';
 </script>
 
 <template>
+  <img src="https://static-lessismore.oss-cn-shanghai.aliyuncs.com/assets/vue-5532db34.svg" alt="" srcset="">
   <PaulMsg />
 </template>
 
