@@ -14,9 +14,9 @@ const getMoreMsg = () => {
 </script>
 
 <template>
-  <!-- https://media-public.canva.cn/Zi3yg/MAEgJ1Zi3yg/1/s3.jpg -->
    <div class="paul-page">
       <div>
+          <img src="https://static-lessismore.oss-cn-shanghai.aliyuncs.com/assets/vue-5532db34.svg" alt="" srcset="">
           <img :src="img" class="paul" alt="paul logo" />
       </div>
       <h1 class="paul-msg">{{ msg }}</h1>
@@ -29,7 +29,7 @@ const getMoreMsg = () => {
   height: 100%;
   width: 100%;
   padding-top: 2rem;
-  background-image: url('https://media-public.canva.cn/Pbt5k/MADVfNPbt5k/4/s2.jpg');
+  /* background-image: url('https://media-public.canva.cn/Pbt5k/MADVfNPbt5k/4/s2.jpg'); */
 }
 .paul-msg {
   color: #fff;
