@@ -19,7 +19,7 @@ const getMoreMsg = () => {
       <div>
           <img :src="img" class="paul" alt="paul logo" />
       </div>
-      <h2 class="paul-msg">{{ msg }}</h2>
+      <h1 class="paul-msg">{{ msg }}</h1>
       <button type="button" @click="getMoreMsg">Click me for more!!!</button>
    </div>
 </template>
